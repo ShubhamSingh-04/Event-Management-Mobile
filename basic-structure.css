@@ -1,0 +1,100 @@
+*{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(assets/body-bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+}
+
+/* the phone border */
+.phone{
+    /* border: 2px solid red; */
+    border-radius: 74px 73px;
+    border-bottom-right-radius: 59px;
+    height: 700px;
+    width: 380px;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(assets/phone.jpg);
+    background-size: 92%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* phone screen */
+#screen{
+    height: 94%;
+    width: 79%;
+    margin-top: 20px;
+    /* border: 2px solid yellow; */
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* status bar of the screen */
+#status-bar{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 4%;
+    margin-top: 4px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-status-bar{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 23%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#right-status-bar{
+    /* border: 2px solid pink; */
+    width: 23%;
+    padding-left: 2px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.status-bar-icon{
+    height: 70%;
+}
+
+/* content of the mobile screen */
+#screen-content{
+    /* border: 2px solid red; */
+    height: 98%;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* gesture bar */
+#gesture-bar{
+    width: 40%;
+    height: 1%;
+    background-color: rgb(69, 67, 67);
+    border-radius: 164%;
+    margin: auto;
+    margin-bottom: 4px;
+}

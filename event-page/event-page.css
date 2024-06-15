@@ -1,0 +1,194 @@
+#header{
+    border: 2px solid #008080;
+
+    width: 99.5%;
+    height: 8%;
+    background-color: #008080;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* justify-content: center; */
+}
+
+#back-btn{
+    width: 31px;
+    height: 32px;
+    margin-left: 6px;
+}
+
+#birthday-logo{
+    border: 1px solid black;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+
+    margin-right: -20px;
+
+    background-image: url(../assets/birthday-cover.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -7px;
+}
+
+#settings-icon{
+    width: 27px;
+    height: 26px;
+    margin-left: 30px;
+}
+
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#time-left{
+    border: 2px solid #FF6F61;
+    background-color: #FF6F61;
+
+    width: 98%;
+
+    margin-top: 8px;
+    margin-left: 2px;
+    border-radius: 10px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+#p-time-left{
+    color: white;
+    font-weight: bold;
+}
+
+#utilities{
+    border: 2px solid gray;
+    width: 95%;
+    height: 30%;
+    border-radius: 22px;
+
+    margin-top: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#utilities-title{
+    border-bottom: 1px solid rgb(112, 111, 111);
+    width: 90%;
+    height: 30px;
+    
+    display: flex;
+    align-items: center;
+}
+
+#p-utilities-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 16px;
+    margin-left: 2px;
+}
+
+.utility{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.utility:hover{
+    box-shadow: 2px 2px 2px;
+}
+
+#utility-icon{
+    width: 10%;
+    height: 80%;
+    background-image: url(../assets/utilities.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#utilities-body{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 130px;
+    margin-top: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.utility-list{
+    /* border: 2px solid green; */
+    width: 95%;
+    height: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#utility-list-2{
+    margin-left: 15px;
+}
+
+.utility-icon{
+    /* border: 2px solid blue; */
+
+    width: 30px;
+    height: 33px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.utility-icon-title{
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+#checklist-icon{
+    background-image: url(../assets/checklist.png);
+
+}
+
+#budget-icon{
+    background-image: url(../assets/budget.png);
+}
+
+#venue-icon{
+    background-image: url(../assets/venue.png);
+}
+
+#guests-icon{
+    background-image: url(../assets/gusts.png);
+}
+
+#utility-4{
+    margin-left: 3px;
+    margin-right: -3px;
+}
+
+#vendor-icon{
+    background-image: url(../assets/vendor.png);
+}
+
+#invitation-icon{
+    background-image: url(../assets/invitation.png);
+}

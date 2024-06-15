@@ -1,0 +1,174 @@
+#nav-bar{
+    border: 2px solid #008080;
+
+    width: 99.5%;
+    height: 8%;
+    background-color: #008080;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#p-home{
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#home-icon{
+    margin-left: 2px;
+}
+
+#acc-logo{
+    margin-left: 182px;
+    width: 10%;
+    height: 57%;
+}
+
+#title-my-events{
+    height: 7%;
+    width: 99.5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#p-my-events{
+    font-weight: bold;
+}
+
+.events-list{
+    /* border: 2px solid red; */
+
+    height: 20%;
+    width: 99.5;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.event-box{
+    border: 1px solid black;
+    width: 43%;
+    height: 89%;
+    border-radius: 20px;
+    background-color: rgba(244, 243, 243, 0.938);
+    font-size: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.event-box:hover{
+    box-shadow: 3px 3px 5px black;
+    cursor: pointer;
+}
+
+.event-cover{
+    border: 1px solid black;
+    border-radius: 50%;
+
+    width: 50%;
+    height: 50%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cover-1{
+    background-image: url('../assets/birthday-cover.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#anchor-tag{
+    width: 40%;
+    height: 100%;
+}
+
+.event-details{
+    height: 40%;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.p-details{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #008080;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#p-cover-1{
+    margin-top: 9px;
+}
+
+#cover-2{
+    background-image: url(../assets/wedding-pic.jpg);
+}
+#p-cover-2{
+    margin-left: 26px;
+}
+
+#event-list-2{
+    margin-top: 5px;
+}
+
+#cover-3{
+    background-image: url(../assets/reunion.jpg);
+}
+
+#cover-4{
+    background-image: url(../assets/freshers-party.webp);
+}
+
+
+/* new event button */
+
+/* #new-event-div{
+    width: 315px;
+    height: 530px;
+
+    margin-top: 206px;
+    margin-left: 242px;
+    margin-bottom: 0px;
+} */
+
+#new-event-btn{
+    border: 2px solid #FF6F61;
+    border-radius: 50%;
+    background-color: #FF6F61;
+
+    margin-top: 206px;
+    margin-left: 242px;
+    margin-bottom: 0px;
+
+    width: 14%;
+    height: 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#new-event-btn:hover{
+    background-color: #f84e3e;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#p-add-new-btn{
+    font-size: 33px;
+}
