@@ -1,0 +1,136 @@
+#header{
+    border: 3px solid #008080;
+
+    width: 98.5%;
+    height: 8%;
+    background-color: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* justify-content: center; */
+}
+
+#cross{
+    width: 31px;
+    height: 32px;
+    margin-left: 6px;
+    background-image: url(../assets/cross.png);
+    background-size: contain;
+}
+
+#p-title{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#empty{
+    width: 27px;
+    height: 26px;
+    margin-left: 30px;
+}
+
+#body{
+    /* border: 2px solid red; */
+
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#add-cover-img{
+    /* border: 2px solid green; */
+
+    width: 99%;
+
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cover-img-icon{
+
+    background-image: url(../assets/gusts.png);
+
+    border: 2px solid black;
+    width: 50px;
+    height: 40px;
+    
+
+    background-color: white;
+    opacity: 80%;
+
+    font-size: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cover-img-icon:hover{
+    background-color: rgb(152, 150, 150);
+    opacity: 95%;
+    cursor: pointer;
+}
+
+#cover-img-title{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#form{
+    border: 2px solid rgb(37, 37, 37);
+
+    margin-top: 15px;
+    width: 95%;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.date-time-input{
+    margin-top: 9px;
+}
+
+#location{
+    margin-top: 9px;
+}
+
+#type-of-event{
+    margin-top: 9px;
+}
+
+#create-event{
+    background-color: #FF6F61;
+    width: 60%;
+    height: 30px;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+#create-event:hover{
+    background-color: #ed4c3e;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
