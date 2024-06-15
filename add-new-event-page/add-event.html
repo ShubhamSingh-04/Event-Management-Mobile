@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event App</title>
+    <link rel="stylesheet" href="../basic-structure.css">
+    <link rel="stylesheet" href="add-event.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="phone">
+        <div id="screen">
+            <div id="status-bar">
+                <div id="left-status-bar">
+                    <img src="../assets/whatsapp-icon.png" alt="" class="status-bar-icon"> 
+                    <img src="../assets/instagram-icon.png" alt="" class="status-bar-icon">                   
+                </div>
+                <div id="right-status-bar">
+                    <img src="../assets/battery.png" alt="" class="status-bar-icon">
+                    <img src="../assets/network.webp" alt="" class="status-bar-icon">
+                </div>
+            </div>
+
+            <div id="screen-content">
+                <div id="header">
+                    <a href="../landing-page/landing-page.html">
+                        <div id="cross"></div>
+                    </a>
+                    <p id="p-title">Add Event</p>
+
+                    <div id="empty"></div>
+                </div>
+
+                <div id="body">
+                    <div id="add-cover-img">
+                        <div id="cover-img-icon">
+                            +
+                        </div>
+
+                        <div id="cover-img-title">
+                            add cover image
+                        </div>
+                    </div>
+
+                    <div id="form">
+                        <div id="enter-name-of-event">
+                            <div class="para-title" id="enter-name">
+                                Enter Event Name:
+                            </div>
+                            <div class="input" id="name-input">
+                                <input type="text" placeholder="Ex: Rahul 's Birthday">
+                            </div>
+                        </div>
+
+                        <div id="enter-date">
+                            <div id="start-date" class="date-time-input">
+                                <div id="start-date-title">
+                                    Enter start date & time:
+                                </div>
+                                <div id="start-date-input" class="date">
+                                    <input type="date" name="" id="">
+                                    <input type="time" name="" id="">
+                                </div>
+                            </div>
+                            <div id="end-date" class="date-time-input">
+                                <div id="end-date-title">
+                                    Enter end date & time:
+                                </div>
+                                <div id="start-date-input" class="date">
+                                    <input type="date" name="" id="">
+                                    <input type="time" name="" id="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="location">
+                            <div id="loc-title">
+                                Enter City:
+                            </div>
+                            <div id="input-loc">
+                                <input type="text" placeholder="Ex: Mysore, Karnataka">
+                            </div>
+                        </div>
+
+                        <div id="type-of-event">
+                            <div id="event-type-title">
+                                Select Event Type:
+                            </div>
+                            <div id="select">
+                                <select name="" id="">
+                                    <option value="">Birthday</option>
+                                    <option value="">Wedding</option>
+                                    <option value="">Anniversary</option>
+                                    <option value="">Reunion</option>
+                                    <option value="">Small Party</option>
+                                    <option value="">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div id="submit">
+                            <div id="create-event">
+                                Create Event
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gesture-bar">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

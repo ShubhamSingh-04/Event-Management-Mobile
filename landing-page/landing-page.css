@@ -82,13 +82,13 @@
 }
 
 #cover-1{
-    background-image: url('../assets/birthday-cover.avif');
+    background-image: url('../assets/wedding-pic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #anchor-tag{
-    width: 40%;
+    width: 65%;
     height: 100%;
 }
 
@@ -113,10 +113,12 @@
 
 #p-cover-1{
     margin-top: 9px;
+    font-size: 15px;
+
 }
 
 #cover-2{
-    background-image: url(../assets/wedding-pic.jpg);
+    background-image: url(../assets/birthday-cover.avif);
 }
 #p-cover-2{
     margin-left: 26px;

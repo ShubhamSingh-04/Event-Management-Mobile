@@ -17,18 +17,23 @@
     margin-left: 6px;
 }
 
-#birthday-logo{
+#event-logo{
     border: 1px solid black;
-    width: 29px;
+    width: 40px;
     height: 29px;
     border-radius: 50%;
 
-    margin-right: -20px;
+    /* margin-right: 0px; */
+    margin-left: 12px;
 
-    background-image: url(../assets/birthday-cover.avif);
+    background-image: url(../assets/wedding-pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -7px;
+    /* background-position: -7px; */
+}
+
+#p-title{
+    margin-left: 20px;
 }
 
 #settings-icon{
@@ -191,4 +196,198 @@
 
 #invitation-icon{
     background-image: url(../assets/invitation.png);
+}
+
+
+#event-ideas{
+    border: 2px solid gray;
+    
+    width: 95%;
+    height: 60%;
+
+    margin-top: 20px;
+
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;  
+}
+
+#event-ideas-header{
+    width: 100%;
+
+    border-bottom: 1px solid rgb(112, 111, 111);
+    width: 90%;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;  
+}
+
+#event-ideas-icon{
+    background-image: url(../assets/idea.png);
+
+    width: 40px;
+    height: 25px;
+    margin-left: -3px;
+    background-image: url(../assets/idea.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#event-ideas-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 16px;
+    margin-left: -4px;
+}
+
+#event-ideas-body{
+    /* border: 2px solid green; */
+    width: 90%;
+    height: 203px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ideas-list{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ideas{
+    border: 1px solid black;
+    width: 30%;
+    height: 88%;
+
+}
+
+.black-div{
+    width: 100%;
+    height: 100%;
+    opacity: 70%;
+    background-color: black;
+
+    font-size: 15px;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-div:hover{
+    border: 2px solid #FF6F61;
+    cursor: pointer;
+}
+
+.ideas{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#idea-1{
+    background-image: url(../assets/portrait-shot-idea.jpg);
+}
+
+#idea-2{
+    background-image: url(../assets/birdal-entry-idea.jpg);
+}
+
+#idea-3{
+    background-image: url(../assets/cocktail-outfits.jpg);
+}
+
+#idea-4{
+    background-image: url(../assets/floral-arrangements-idea.h);
+}
+
+#idea-5{
+    background-image: url(../assets/mehendi-deswign-idea.webp);
+}
+
+#idea-6{
+    background-image: url(../assets/more-ideas.jpg);
+    background-position: -19px;
+}
+
+
+
+#footer{
+    border: 0.5px solid black;
+    width: 98%;
+    height: 35px;
+
+    margin-top: 14px;
+    margin-left: 3px;
+
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-ele-icon{
+    width: 16px;
+    height: 16px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-ele-icon:hover{
+    cursor: pointer;
+}
+
+.active-title{
+    color: #FF6F61;
+}
+
+.active-title:hover{
+    cursor: pointer;
+}
+
+#f-ele-icon-1{
+    background-image: url(../assets/overview.png);
+}
+
+#active-div{
+    width: 100%;
+    height: 100%;
+    background-color: #FF6F61;
+    opacity: 30%;
+}
+
+#f-ele-icon-2{
+    background-image: url(../assets/checklist.png);
+}
+
+#f-ele-icon-3{
+    background-image: url(../assets/acc-logo.png);
+}
+
+.footer-ele-title{
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+#gesture-bar{
+    margin-top: -5px;
 }
