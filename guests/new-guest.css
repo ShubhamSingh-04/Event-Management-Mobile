@@ -134,3 +134,27 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+#add-multiple{
+    margin: auto;
+    margin-top: 10px;
+    width: 95%;
+    height: 40px;
+
+    border-radius: 30px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FF6F61;
+
+}
+
+#add-multiple:hover{
+    background-color: #ed4c3e;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -26,7 +26,7 @@
     /* margin-right: 0px; */
     margin-left: 12px;
 
-    background-image: url(../assets/budget.png);
+    background-image: url(../assets/invitation.png);
     background-size: contain;
     background-repeat: no-repeat;
     /* background-position: -7px; */
@@ -57,150 +57,66 @@
     margin-left: 2px;
     margin-top: 4px;
 
-}
-
-#balance{
-    border: 2px solid black;
-
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
-#balance-header{
-    border: 2px solid #FF6F61;
-    background-color: #FF6F61;
+.invitation{
+    border: 2px solid black;
+    margin: 10px;
+    width: 40%;
+    height: 30%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.black-div{
+    width: 100%;
+    height: 100%;
+
     color: white;
     font-weight: bold;
 
-    width: 99%;
-
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-
-}
-
-.container{
-    width: 90%;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-
-    margin-top: 5px;
-
-}
-
-.cost-type{
-    display: inline-block;
-    font-weight: bold;
-    width: 180px;
-}
-
-.cost{
-    width: 103px;
-}
-
-#balance-logo{
-    width: 21px;
-    height: 30px;
-
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 6px;
-
-    background-image: url(../assets/balance.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#payments{
-    border: 2px solid black;
-
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#payments-header{
-    border: 2px solid black;
-    border-top: none;
-    background-color: greenyellow;
-    color: white;
-    font-weight: bold;
-
-    width: 99%;
-
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-}
-
-#payments-logo{
-    width: 21px;
-    height: 30px;
-
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 6px;
-
-    background-image: url(../assets/payments.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#payment-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.payments{
-    border: 2px solid black;
-    margin: 5px;
-
-    border-radius: 3px;
-    padding: 5px;
-    width: 85%;
-}
-
-#budget-used{
-    border: 2px solid black;
-
-    margin-top: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#graph-desc{
-    border: 2px solid black;
-    border-top: none;
-    width: 99%;
-    text-align: center;
-    font-weight: bold;
-
+    opacity: 0%;
     background-color: black;
-    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-#graph{
-    background-image: url(../assets/budget-used.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    width: 78px;
-    height: 80px;
-
-    margin-top: 7px;
+.black-div:hover{
+    opacity: 70%;
 }
 
+#invi-1{
+    background-image: url(../assets/invi-1.webp);
+}
+
+#invi-2{
+    background-image: url(../assets/invi-2.jpg);
+}
+
+#invi-3{
+    background-image: url(../assets/invi-3.jpg);
+}
+
+#invi-4{
+    background-image: url(../assets/invi-4.png);
+}
+
+#invi-5{
+    background-image: url(../assets/invi-5.jpg);
+}
+
+#invi-6{
+    background-image: url(../assets/invi-6.jpg);
+}
 
 
 

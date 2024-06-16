@@ -26,10 +26,12 @@
     /* margin-right: 0px; */
     margin-left: 12px;
 
-    background-image: url(../assets/budget.png);
-    background-size: contain;
+    background-image: url(../assets/decor.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: -7px; */
+
+    border-radius: 50%;
+    background-position: -7px -15px;
 }
 
 #p-title{
@@ -42,6 +44,47 @@
     align-items: center;
 
 }
+
+#search-bar{
+    border: 2px solid grey;
+
+    margin-top: 5px;
+    width: 97%;
+    height: 34px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-input{
+    width: 154%;
+    height: 64%;
+}
+
+#search-btn{
+    background-image: url(../assets/search-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-color: #FF6F61;
+
+    height: 65%;
+    width: 20%;
+
+    border: 2px solid #008080;
+    border-radius: 10px;
+
+    margin-left: 3px;
+}
+
+#search-btn:hover{
+    cursor: pointer;
+    background-color: #f44c3c;
+    border: 2px solid black;
+
+}
+
 
 #empty{
     width: 27px;
@@ -59,153 +102,108 @@
 
 }
 
-#balance{
+#filter{
     border: 2px solid black;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-}
-
-#balance-header{
-    border: 2px solid #FF6F61;
     background-color: #FF6F61;
-    color: white;
-    font-weight: bold;
 
-    width: 99%;
+    margin: auto;
+    margin-top: 5px;
+    width: 95%;
 
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
-
-}
-
-.container{
-    width: 90%;
-    display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
 
-    margin-top: 5px;
 
 }
 
-.cost-type{
-    display: inline-block;
-    font-weight: bold;
-    width: 180px;
+#filter-title{
+    color: black;
 }
 
-.cost{
-    width: 103px;
-}
-
-#balance-logo{
-    width: 21px;
-    height: 30px;
-
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 6px;
-
-    background-image: url(../assets/balance.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#payments{
+#filter-logo{
+    height: 20px;
+    width: 10%;
     border: 2px solid black;
 
+    background-color: teal;
+    background-image: url(../assets/filter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 3px;
+}
+
+#filter-logo:hover{
+    background-color: rgb(3, 94, 94);
+    cursor: pointer;
+}
+
+#options{
+    border: 2px solid black;
+    width: 95%;
+    height: 80%;
+    margin: auto;
     margin-top: 5px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#payments-header{
-    border: 2px solid black;
-    border-top: none;
-    background-color: greenyellow;
-    color: white;
-    font-weight: bold;
+.option{
+    border: 2px solid gray;
+    margin-top: 15px;
 
-    width: 99%;
-
+    width: 98%;
+    height: 30%;
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
+
 }
 
-#payments-logo{
-    width: 21px;
-    height: 30px;
+.option:hover{
+    background-color: rgb(173, 171, 171);
+    cursor: pointer;
+}
 
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 6px;
+.option-img{
+    border: 2px solid black;
+    height: 98%;
+    width: 60%;
 
-    background-image: url(../assets/payments.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;
 }
 
-#payment-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#img-1{
+    background-image: url(../assets/decor.jpeg);
+    /* background-position: 19px; */
 }
 
-.payments{
-    border: 2px solid black;
-    margin: 5px;
+#img-2{
+    background-image: url(../assets/decor-2.jpeg);
+    /* background-position: 19px; */
+}
 
-    border-radius: 3px;
+#img-3{
+    background-image: url(../assets/decor-3.jpg);
+    /* background-position: 19px; */
+}
+
+.info{
+    width: 80%;
+    height: 98%;
+    /* border: 2px solid green; */
+
     padding: 5px;
-    width: 85%;
-}
-
-#budget-used{
-    border: 2px solid black;
-
-    margin-top: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#graph-desc{
-    border: 2px solid black;
-    border-top: none;
-    width: 99%;
-    text-align: center;
     font-weight: bold;
-
-    background-color: black;
-    color: white;
 }
 
-#graph{
-    background-image: url(../assets/budget-used.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    width: 78px;
-    height: 80px;
-
-    margin-top: 7px;
+.desc{
+    color: gray;
+    margin-top: 25px;
+    font-size: small;
 }
-
-
-
-
-
-
 
 #footer{
     border: 0.5px solid black;

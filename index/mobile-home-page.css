@@ -12,8 +12,23 @@
     width: 25%;
     margin-top: 166px;
     margin-left: 29px;
+
+    overflow: hidden;
 }
 
 #app-name{
-    margin: auto;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+
+#logo{
+    width: 100%;
+    height: 100%;
+
+    margin-top: 1px;
+
+    background-image: url(../assets/EventEase-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }

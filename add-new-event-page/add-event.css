@@ -102,6 +102,10 @@
     flex-direction: column;
 }
 
+#enter-budget{
+    margin-top: 5px;
+}
+
 .date-time-input{
     margin-top: 9px;
 }

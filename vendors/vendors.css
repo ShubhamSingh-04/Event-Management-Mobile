@@ -15,6 +15,7 @@
     width: 31px;
     height: 32px;
     margin-left: 6px;
+    margin-top: 10px;
 }
 
 #checklist-logo{
@@ -26,7 +27,7 @@
     /* margin-right: 0px; */
     margin-left: 12px;
 
-    background-image: url(../assets/budget.png);
+    background-image: url(../assets/vendor.png);
     background-size: contain;
     background-repeat: no-repeat;
     /* background-position: -7px; */
@@ -40,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -257px;
 
 }
 
@@ -57,150 +59,121 @@
     margin-left: 2px;
     margin-top: 4px;
 
-}
-
-#balance{
-    border: 2px solid black;
-
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 
 }
 
-#balance-header{
-    border: 2px solid #FF6F61;
-    background-color: #FF6F61;
-    color: white;
-    font-weight: bold;
-
-    width: 99%;
+.list{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 102px;
 
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
-
-}
-
-.container{
-    width: 90%;
-    display: flex;
-    /* justify-content: center; */
+    justify-content: space-around;
     align-items: center;
 
-    margin-top: 5px;
+    margin-top: 10px;
+
 
 }
 
-.cost-type{
-    display: inline-block;
-    font-weight: bold;
-    width: 180px;
-}
+.item{
+    border: 2px solid black;
+    width: 30%;
+    height: 96%;
 
-.cost{
-    width: 103px;
-}
-
-#balance-logo{
-    width: 21px;
-    height: 30px;
-
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 6px;
-
-    background-image: url(../assets/balance.png);
+    background-image: url(../assets/more-ideas.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-}
+    background-size: cover;
 
-#payments{
-    border: 2px solid black;
-
-    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+
 }
 
-#payments-header{
-    border: 2px solid black;
-    border-top: none;
-    background-color: greenyellow;
-    color: white;
-    font-weight: bold;
-
-    width: 99%;
-
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
+#item-1{
+    background-image: url(../assets/photographer.jpg);
+    background-position: -24px;
 }
 
-#payments-logo{
-    width: 21px;
-    height: 30px;
-
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 6px;
-
-    background-image: url(../assets/payments.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+#item-2{
+    background-image: url(../assets/decor.jpeg);
 }
 
-#payment-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#item-3{
+    background-image: url(../assets/music.jpg);
+    background-position: -50px;
 }
 
-.payments{
-    border: 2px solid black;
-    margin: 5px;
-
-    border-radius: 3px;
-    padding: 5px;
-    width: 85%;
+#item-4{
+    background-image: url(../assets/food.avif);
+    background-position: -24px;
 }
 
-#budget-used{
-    border: 2px solid black;
-
-    margin-top: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+#item-5{
+    background-image: url(../assets/makeup.jpeg);
+    background-position: -24px;
 }
 
-#graph-desc{
-    border: 2px solid black;
-    border-top: none;
-    width: 99%;
-    text-align: center;
-    font-weight: bold;
+#item-6{
+    background-image: url(../assets/groom-wear.jpg);
+    /* background-position: -24px; */
+}
 
+#item-7{
+    background-image: url(../assets/bridal-wear.jpeg);
+    /* background-position: -24px; */
+}
+
+#item-8{
+    background-image: url(../assets/jwels.jpg);
+    /* background-position: -24px; */
+}
+
+#item-9{
+    background-image: url(../assets/gifts.jpg);
+    /* background-position: -24px; */
+}
+
+#item-10{
+    background-image: url(../assets/pandits.jpeg);
+    background-position: -24px;
+}
+
+#item-11{
+    background-image: url(../assets/bridal-groming.webp);
+    background-position: 0 -20px;
+}
+
+a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.black-div{
     background-color: black;
+    opacity: 70%;
+    
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 13px;
     color: white;
 }
 
-#graph{
-    background-image: url(../assets/budget-used.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    width: 78px;
-    height: 80px;
-
-    margin-top: 7px;
+.black-div:hover{
+    font-weight: bold;
+    border: 3px solid red;
 }
-
 
 
 

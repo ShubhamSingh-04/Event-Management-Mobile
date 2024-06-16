@@ -26,10 +26,10 @@
     /* margin-right: 0px; */
     margin-left: 12px;
 
-    background-image: url(../assets/wedding-pic.jpg);
+    background-image: url(../assets/wedding-pic-2.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: -7px; */
+    background-position: -7px;
 }
 
 #p-title{
