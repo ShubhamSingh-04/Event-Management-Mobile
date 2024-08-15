@@ -1,0 +1,204 @@
+#header{
+    border: 2px solid #008080;
+
+    width: 99.5%;
+    height: 8%;
+    background-color: #008080;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* justify-content: center; */
+}
+
+#back-btn{
+    width: 31px;
+    height: 32px;
+    margin-left: 6px;
+}
+
+#checklist-logo{
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 29px;
+    /* border-radius: 50%; */
+
+    /* margin-right: 0px; */
+    margin-left: 12px;
+
+    background-image: url(../assets/after-event.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: -7px; */
+}
+
+#p-title{
+    margin-left: 4px;
+}
+
+#checklist-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#empty{
+    width: 27px;
+    height: 26px;
+    margin-left: 30px;
+}
+
+#body{
+    /* border: 2px solid black; */
+    width: 98%;
+    height: 80%;
+
+    margin-left: 2px;
+    margin-top: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.invitation{
+    border: 2px solid black;
+    margin: 10px;
+    width: 40%;
+    height: 30%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.invitation:hover{
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FF6F61;
+    width: 100%;
+    height: 20%;
+}
+
+.title:hover{
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px 1px;
+    background-color: #ac1d10;
+
+    border: 2px solid black;
+
+
+}
+
+#invi-1{
+    background-image: url(../assets/leftovers.jpg);
+    background-position: -15px -15px;
+}
+
+#invi-2{
+    background-image: url(../assets/feedback.jpg);
+}
+
+#invi-3{
+    background-image: url(../assets/damage-loss.png);
+    background-position: -5px -15px;
+
+}
+
+#invi-4{
+    background-image: url(../assets/idea-after-event.avif);
+    background-position: -15px -15px;
+}
+
+
+
+
+
+
+#footer{
+    border: 0.5px solid black;
+    width: 98%;
+    height: 35px;
+
+    margin-top: 14px;
+    margin-left: 3px;
+
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-ele-icon{
+    width: 16px;
+    height: 16px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-ele-icon:hover{
+    cursor: pointer;
+}
+
+.active-title{
+    color: #FF6F61;
+}
+
+.active-title:hover{
+    cursor: pointer;
+}
+
+#f-ele-icon-1{
+    background-image: url(../assets/overview.png);
+}
+
+#active-div{
+    width: 100%;
+    height: 100%;
+    background-color: #FF6F61;
+    opacity: 30%;
+}
+
+#f-ele-icon-2{
+    background-image: url(../assets/checklist.png);
+}
+
+#f-ele-icon-3{
+    background-image: url(../assets/acc-logo.png);
+}
+
+.footer-ele-title{
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+#gesture-bar{
+    margin-top: -5px;
+}

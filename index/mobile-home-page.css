@@ -7,7 +7,7 @@
 
 #app-logo{
     border: 2px solid blue;
-    border-radius: 25%;
+    border-radius: 50%;
     height: 11%;
     width: 25%;
     margin-top: 166px;
@@ -29,6 +29,6 @@
 
     background-image: url(../assets/EventEase-logo.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
 
 }
