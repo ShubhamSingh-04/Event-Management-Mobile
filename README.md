@@ -1,6 +1,8 @@
-## Instructions
+# Visit it:
+[EventEase](https://shubhamsingh-04.github.io/Event-Management-Mobile/)
 
-The [index.html](./index/index.html)file is in the index folder.  
+## Instructions
+ 
 Click on the **"EventEase"** icon on the home screen of the mobile to launch the app.  
 Currently, only the **"Jay's Wedding"** option and the **"Add Events"** (red button at the bottom right corner of the first page of the app) are working.
 
